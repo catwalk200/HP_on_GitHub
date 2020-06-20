@@ -17,38 +17,46 @@
         </a>
         
         </p>
-        <fieldset>
-            <legend>ID とパスワード</legend>
-            <label for="name">ID</label><input type="text" name="name" id="name"><br>
-            <label for="pass">Password</label><input type="password" name="pass" id="pass"><br>
-        </fieldset>
-        <textarea name="info" id="" cols="80" rows="3">事前の入力test</textarea><br>
-
-        <fieldset>
-            <legend>性別</legend>
-            <input type="radio" name="gender" value="male" id="male"><label for="male">男性</label><br>  
-            <input type="radio" name="gender" value="female" id="female"><label for="female">女性</label><br>
-        </fieldset>
         <br>
+        <h2>以下、HTMLの練習</h2>
+        <form>
+            <fieldset>
+                <legend>ID とパスワード</legend>
+                <label for="name">ID</label><input type="text" name="name" id="name"><br>
+                <label for="pass">Password</label><input type="password" name="pass" id="pass"><br>
+            </fieldset>
+            <textarea name="info" id="" cols="80" rows="3">事前の入力test</textarea><br>
 
-        <input type="checkbox" name="box" value="jazz">jazz<br>
-        <input type="checkbox" name="box" value="pops">pops<br>
-        <input type="checkbox" name="box" value="rock">roak<br>
-        <br>
+            <fieldset>
+                <legend>性別</legend>
+                <input type="radio" name="gender" value="male" id="male"><label for="male">男性</label><br>  
+                <input type="radio" name="gender" value="female" id="female"><label for="female">女性</label><br>
+                
+            </fieldset>
+            <br>
 
-        <select name="address">
-            <optgroup label="関東">
-                <option value="tokyo">東京</option>
-                <option value="tiba">千葉</option>
-                <option value="saitama">埼玉</option>
-            </optgroup>
-            <optgroup label="関西">
-                <option value="oosaka">大阪</option>
-                <option value="kyouto">京都</option>
-                <option value="hyougo">兵庫</option>
-            </optgroup>
-        </select>
-        <br>
+            <input type="checkbox" name="box" value="jazz">jazz<br>
+            <input type="checkbox" name="box" value="pops">pops<br>
+            <input type="checkbox" name="box" value="rock">roak<br>
+            <button>何も起こらないボタン</button>
+            <br>
+
+            <select name="address">
+                <optgroup label="関東">
+                    <option value="tokyo">東京</option>
+                    <option value="tiba">千葉</option>
+                    <option value="saitama">埼玉</option>
+                </optgroup>
+                <optgroup label="関西">
+                    <option value="oosaka">大阪</option>
+                    <option value="kyouto">京都</option>
+                    <option value="hyougo">兵庫</option>
+                </optgroup>
+            </select>
+            <br>
+            <input type="submit" value="送信">
+            <br>
+        </form>
 
 
         
