@@ -14,3 +14,20 @@ span {
 #header{
     font-size: 18px;
 }
+
+.base {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.black{
+    color: black;
+}
+
+.red{
+    color: red;
+}
+
+.green{
+    color: green;
+}
