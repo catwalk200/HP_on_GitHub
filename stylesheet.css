@@ -3,7 +3,7 @@ h1 {
 }
 p {
     font-size: 24px;
-    background-color: aqua;
+    background-color: rgb(255, 255, 255);
 }
 span {
     background-color: yellow;
@@ -41,6 +41,12 @@ div[class="div"] {
     padding: 5px;
 }
 
-:link {
-    color: rgb(255, 0, 0);
+a:link {
+    color: red;
+}
+:visited {
+    color: green;
+}
+a:hover {
+    text-decoration: none;
 }
