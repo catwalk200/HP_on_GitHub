@@ -8,6 +8,9 @@ p {
 span {
     background-color: yellow;
 }
+div {
+    background-color: hotpink;
+}
 .test {
     background-color: gray;
 }
