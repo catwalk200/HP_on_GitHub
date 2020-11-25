@@ -1,6 +1,9 @@
 h1 {
     color: blue;
 }
+img {
+    width: 100vw;
+}
 p {
     font-size: 24px;
     background-color: rgb(255, 255, 255);
@@ -14,8 +17,9 @@ div {
 .test {
     background-color: gray;
 }
-#header{
-    font-size: 18px;
+
+header {
+    font-size: 1rem
 }
 
 .base {
@@ -44,9 +48,18 @@ div[class="div"] {
 a:link {
     color: red;
 }
-:visited {
+*:visited {
     color: green;
 }
-a:hover {
+*:hover {
     text-decoration: none;
+}
+
+.linker {
+    padding: 1rem;
+    background-color: white;
+}
+
+#form {
+    padding: 3rem 0 1rem;
 }
